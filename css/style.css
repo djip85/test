@@ -1,0 +1,94 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+body {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.1;
+    color: black;
+}
+.header {
+    background-color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    padding: 9px 0;
+    z-index: 1;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 60px; */
+}
+.menu {
+    display: flex;
+    gap: 0 26px;
+}
+.menu__link {
+    color: #737373;
+}
+.button {
+    padding: 8px 32px;
+    border-radius: 50px;
+    font-weight: 400;
+}
+.button-header {
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.wallpaper {
+    max-width: 100%;
+    position: relative;
+}
+.content-wrapper {
+    position: absolute;
+    top: 260px;
+    display: flex;
+    flex-direction: column;
+    max-width: 580px;
+    color: #fff;
+}
+.title {
+    font-weight: 700;
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+.subtitle {
+    font-weight: 400;
+    line-height: 1.36;
+    max-width: 377px;
+    margin-bottom: 40px;
+}
+.button-inner {
+    color: #000;
+    background-color: #fff;
+    width: fit-content;
+}
+.button.button-inner {
+    margin-bottom: 30px;
+}
+.term-list {
+    font-weight: 400;
+    line-height: 1.7;
+}
+.term-list__item {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.term-list__item::before {
+    content: '';
+    background-image: url(../img/tick-circle.svg);
+    display: block;
+    width: 20px;
+    height: 20px;
+}
